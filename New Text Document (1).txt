@@ -1,0 +1,40 @@
+void main() {
+    int var;
+    int var2 = var + 17*20 ;
+    printf("Enter value of var = \n");
+    scanf("%d", &var);
+    int arr1[5][2];
+    arr1=150;
+    float arr2[3][6]={10,20,30,40};
+    if (var == 10) {
+        printf("Value of var = %d", var);
+        int z;
+        for (int var = 1; var < 10; var++) {
+            for (int i = 0; i < var2; i++) {
+                z = var + i; 
+            }
+        }
+    }
+    else if (var2 == 10) {
+        if (var != 10) {
+            printf("Value of var2 = %f", var2);
+        }
+        printf("Value of var2 = %f", var2);
+    }
+    else {
+        do {
+            switch (var) {
+                case 1: while (var2 > 11) {
+                        printf("Value of var2 = %f\n", var2);
+                    }
+                    break;
+                case 2:printf("Value of var = %d\n", var);
+                    break;
+                default: printf("This is default case\n");
+                    break;
+            }
+        }while(var < 100);
+    }
+    printf("Values \n Var=%d \n Var2=%f\n", var, var2);
+}
+$
